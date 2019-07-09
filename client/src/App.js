@@ -38,7 +38,6 @@ class App extends Component {
         .then(res => res.json())
         .then(res => this.setState({ response: res }))
         .catch(err => err);
-        
 
     }
 
